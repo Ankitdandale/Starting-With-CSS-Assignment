@@ -1,0 +1,13 @@
+.External_CSS{
+    color: crimson; 
+    background-color: black;
+}
+.Inline_External_CSS{
+    color: aqua;
+    background-color: black;
+}
+.Internal_External_CSS{
+    color: yellow;
+    background-color: black;
+    
+}

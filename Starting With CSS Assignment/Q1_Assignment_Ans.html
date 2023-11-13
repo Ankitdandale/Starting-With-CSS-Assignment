@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Answer</title>
+    <style>
+        .Internal_CSS{
+            color:black;
+            background-color: yellow;
+        }
+        .Inline_Internal_CSS{
+            color: green;
+            background-color: blue;
+            
+        }
+        .Internal_External_CSS{
+            color: chartreuse; background-color: tomato;
+        }
+    </style>
+    <link rel="stylesheet" href="./Q1_Assignment.css">
+</head>
+<body>
+   <div>
+    <h1>Difference Between Inline Css,Internal Css and External Css</h1>
+   </div> 
+   <hr>
+   <div style="color: orange; background-color: orangered;" >INLINE CSS Applied</div>
+   <div class="Internal_CSS">Internal CSS Applied</div>
+   <div class="External_CSS">External CSS Applied</div>
+
+ <!-- IN CSS ALWAYS REMEMBER ONE THING THATS INLINE CSS IS HAVING 1ST PRIORITY ALWAYS IF WE ARE USING WITH INTERNAL + EXTERNAL CSS AT A SAME TIME  -->
+
+   <div style="color: red; background-color: aqua;" class="Inline_Internal_CSS">Inline + Internal CSS Applied</div>
+   <div style="color: green; background-color: springgreen;" class="Inline_External_CSS">Inline + External CSS Applied</div> 
+
+<!-- IN CSS External CSS IS FIRST APPLIEDE IF WE TRY TO APPLY INTERNAL CSS + EXTERNAL CSS AT A SAME TIME. -->
+
+   <div class="Internal_External_CSS">Internal CSS + External CSS Applied</div>
+<hr>
+
+</body>
+</html>

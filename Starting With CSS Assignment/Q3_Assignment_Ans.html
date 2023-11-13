@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q3 Answer</title>
+    <style>
+      
+        body{
+            background-color: cadetblue; 
+               }
+          .First-Name{
+            color: aqua;
+            background-color: black;
+          }
+          .Last-Name{
+            color: aqua;
+            background-color: rgb(187, 142, 230);
+          }
+          .Email-Id{
+            color: olive;
+            background-color: blanchedalmond;
+          }
+          .Password{
+            color: red;
+            background-color: coral;
+          }
+          .Confirm-Password{
+            color: red;
+            background-color: coral;
+          }
+          .BirthDate{
+            background-color: aqua;
+          }
+          .Terms :checked{
+            accent-color : red;
+            
+          }
+          .Submit{
+            color: aqua;
+            background-color: black;
+            width: 100px;
+            height: 25px;
+            text-align: center;
+          }
+
+    </style>
+</head>
+<body>
+    <form action="" >
+       <label for="First-Name"> First Name :</label>
+     <input type="text" class="First-Name" name="First-Name" id="First-Name" placeholder="Enter Your First Name" required>
+     <br><br>
+     <label for="Last-Name "> Last Name : </label>
+     <input type="text" class="Last-Name" name="Last Name" id="Last Name " placeholder="Enter Last Name " required>
+     <br><br>
+     <label for="Email-Id "> Email Id : </label>
+     <input type="email" class="Email-Id" name="Email Id" id="Email Id" placeholder="Enter Your Email Id" required>
+     <br><br>
+     <label for="Password">Password : </label>
+     <input type="password" class="Password" name="Password" id="Password" placeholder="********" required minlength="4" maxlength="10">
+     <br><br>
+     <label for="Confirm-Password"> Confirm Password : </label>
+     <input type="password" class="Confirm-Password" name="Confirm Password" id="Confirm Password" placeholder="********" required minlength="4"
+     maxlength="10">
+     <br><br>
+     <label for="BirthDate "> BirthDate :</label>
+     <input type="date" class="BirthDate" name="BirthDate" id="BirthDate">
+     <br><br>
+     <label for="Gender"> Gender : </label>
+     <label for="Male"> Male </label>
+     <input type="radio" name="Gender" id="male">
+     <label for="Female">Female </label>
+     <input type="radio" name="Gender" id="Female">
+     <br><br>
+     <input type="checkbox" name="Terms" id="Terms" class="Terms">
+     <label for="Terms"> I Accepted The All Terms & Conditions .</label>
+     <br><br>
+     <input type="submit" value="Submit" class="Submit">
+
+
+
+    </form>
+
+</body>
+</html>
